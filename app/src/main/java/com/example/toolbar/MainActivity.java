@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayShowTitleEnabled(false);
-        mButton = (Button) findViewById(R.id.button);
+        mButton = (Button) findViewById(R.id.button_first_activity);
         mButton.setOnClickListener(this);
     }
 

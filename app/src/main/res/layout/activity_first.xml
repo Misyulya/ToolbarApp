@@ -14,4 +14,14 @@
         android:text="First activity"
         android:textSize="30sp"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="next activity"
+        android:id="@+id/open_next_activity"
+        />
+
 </RelativeLayout>
